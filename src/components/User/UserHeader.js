@@ -19,14 +19,14 @@ const UserHeader = () => {
       default:
         setTitle('Minha conta');
     }
-  }, [location])
+  }, [location]);
 
   return (
     <header className={styles.header}>
       <h1 className="title">{title}</h1>
       <UserHeaderNav />
     </header>
-  )
-}
+  );
+};
 
-export default UserHeader
+export default UserHeader;
